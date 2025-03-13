@@ -28,12 +28,11 @@ MEG dataset of N=20 participants:
   [https://github.com/mathias-sm/AGeometricShapeRegularityEffectHumanBrain](https://github.com/mathias-sm/AGeometricShapeRegularityEffectHumanBrain).  
   However, these analyses have been performed on pre-processed data _without_
   this defacing steps. I am not publishing this raw data, but should there be
-  discrepancies or problems coming from the defacing, I have a copy:
+  discrepancies or problems coming from the defacing, I have a copy of the following
+  information, which I may ask for permission to share in specific cases:
     1. The original data
     2. The seed used for the anonymization procedure
     3. The shuffling information.  
-  In specific cases I may be able to share these, or otherwise help in the
-  spirit of Open Science.
 * Anonymization (including defacing of the `anat` folder) has been performed
   using the following command:  
   `python -c 'import mne_bids; mne_bids.anonymize_dataset("<input>", "<output>", random_state=<number>, daysback=<number>)'`  
